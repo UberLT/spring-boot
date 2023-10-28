@@ -13,7 +13,7 @@ import com.uberlanIFF.curso.Entities.Category;
 import com.uberlanIFF.curso.Services.CategoryService;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/categories")
 public class CategoryResource {
 	@Autowired
 	private CategoryService service;
